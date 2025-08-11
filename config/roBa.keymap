@@ -149,7 +149,7 @@
 &kp Q           &kp W         &kp E         &kp R                        &kp T                                      &kp Y             &kp U  &kp I     &kp O     &kp P
 &mt CAPSLOCK A  &kp S         &kp D         &kp F                        &kp G  &mkp MB3        &kp COMMA           &kp H             &kp J  &kp K     &kp L     &kp ENTER
 &mt LS(Z) Z     &kp X         &kp C         &kp V                        &kp B  &kp ESCAPE      &kp PERIOD          &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &mo 2  &kp SPACE       &lt 3 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &mo 3  &kp SPACE       &lt 2 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -164,6 +164,17 @@
             >;
         };
 
+        FANCTION {
+            bindings = <
+&trans  &trans          &kp UP_ARROW    &trans           &trans                             &kp F7  &kp F8  &kp F9  &kp F12  &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP      &trans      &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &trans          &trans          &trans           &kp PAGE_DOWN  &trans      &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans  &trans          &trans          &trans           &trans         &trans      &trans  &trans                           &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
         NUM {
             bindings = <
 &trans  &trans    &kp UP_ARROW  &trans     &trans                                                &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
@@ -171,17 +182,6 @@
 &trans  &trans    &trans        &trans     &kp PAGE_DOWN  &kp PERCENT      &kp MINUS             &kp N1        &kp NUMBER_2  &kp N3        &kp DOT       &kp DELETE
 &trans  &trans    &trans        &trans     &trans         &trans           &kp NON_US_BACKSLASH  &kp N0                                                  &kp BACKSPACE
             >;
-        };
-
-        FANCTION {
-            bindings = <
-&kp ESCAPE      &trans                  &kp UP_ARROW    &trans                   &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
