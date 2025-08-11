@@ -157,19 +157,19 @@
 
         KIGOU {
             bindings = <
-&kp DOUBLE_QUOTES  &trans    &kp UP_ARROW    &trans          &kp SQT                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE       &kp EXCLAMATION
-&trans             &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans   &kp HASH         &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS       &kp QUESTION
-&trans             &trans    &trans          &trans          &trans   &kp PERCENT      &kp PERCENT  &kp LT                &kp GT                 &kp SLASH      &kp UNDERSCORE  &kp AT_SIGN
-&trans             &trans    &trans          &trans          &trans   &trans           &trans       &trans                                                                      &kp AMPERSAND
+&kp DOUBLE_QUOTES  &trans    &kp UP_ARROW    &trans          &kp SQT                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE       &kp EXCLAMATION
+&trans             &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp PAGE_UP    &kp HASH         &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS       &kp QUESTION
+&trans             &trans    &trans          &trans          &kp PAGE_DOWN  &kp PERCENT      &kp PERCENT  &kp LT                &kp GT                 &kp SLASH      &kp UNDERSCORE  &kp AT_SIGN
+&trans             &trans    &trans          &trans          &trans         &trans           &trans       &trans                                                                      &kp AMPERSAND
             >;
         };
 
         NUM {
             bindings = <
-&trans  &trans    &kp UP_ARROW  &trans     &trans                                    &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans      &kp PLUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp ENTER
-&trans  &trans    &trans        &trans     &trans  &trans      &kp MINUS             &kp N1        &kp NUMBER_2  &kp N3        &kp DOT       &kp DELETE
-&trans  &trans    &trans        &trans     &trans  &trans      &kp NON_US_BACKSLASH  &kp N0                                                  &kp BACKSPACE
+&trans  &kp PG_UP  &kp UP_ARROW  &trans     &trans                                    &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
+&trans  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans      &kp PLUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp ENTER
+&trans  &trans     &trans        &trans     &trans  &trans      &kp MINUS             &kp N1        &kp NUMBER_2  &kp N3        &kp DOT       &kp DELETE
+&trans  &trans     &trans        &trans     &trans  &trans      &kp NON_US_BACKSLASH  &kp N0                                                  &kp BACKSPACE
             >;
         };
 
