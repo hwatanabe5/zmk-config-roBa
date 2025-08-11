@@ -147,9 +147,9 @@
         default_layer {
             bindings = <
 &kp Q           &kp W         &kp E         &kp R  &kp T                                      &kp Y             &kp U  &kp I     &kp O     &kp P
-&mt CAPSLOCK A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &kp COMMA           &kp H             &kp J  &kp K     &kp L     &kp ENTER
-&mt LS(Z) Z     &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kp PERIOD          &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
+&mt CAPSLOCK A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &KP JP_COMMA           &kp H             &kp J  &kp K     &kp L     &kp ENTER
+&mt LS(Z) Z     &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &KP JP_DOT             &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 JP_MHEN	  &lt 1 JP_HENK	    &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -157,10 +157,10 @@
 
         KIGOU {
             bindings = <
-&kp DOUBLE_QUOTES  &trans    &kp UP_ARROW    &trans     &kp SQT                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE       &kp EXCLAMATION
-&kp TAB            &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_UP    &kp HASH         &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS       &kp QUESTION
-&kp LEFT_SHIFT     &trans    &trans          &trans     &kp PAGE_DOWN  &kp PERCENT      &kp PERCENT  &kp LT                &kp GT                 &kp SLASH      &kp UNDERSCORE  &kp AT_SIGN
-&kp LEFT_CONTROL   &trans    &trans          &trans     &trans         &trans           &trans       &trans                                                                      &kp AMPERSAND
+&kp DOUBLE_QUOTES  &trans    &kp UP_ARROW    &trans     &kp SQT                                      &kp JP_LPAR	       &kp JP_RPAR	          &kp JP_SEMI    &kp JP_TI       &kp JP_EXCL	
+&kp TAB            &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_UP    &kp JP_AMPS	HASH         &kp JP_HASH	 &kp JP_LBKT	       &kp JP_RBKT	          &kp JP_COLON   &kp JP_MINUS    &kp JP_QMARK	
+&kp LEFT_SHIFT     &trans    &trans          &trans     &kp PAGE_DOWN  &kp JP_AMPS	PERCENT      &kp JP_PERCENT  &kp JP_LT          &kp JP_GT              &kp JP_SLASH   &kp JP_UNDER	 &kp JP_AT	
+&kp LEFT_CONTROL   &trans    &trans          &trans     &trans         &trans           &trans       &trans                                                                      &kp JP_AMPS	
             >;
         };
 
@@ -177,10 +177,10 @@
 
         NUM {
             bindings = <
-&trans  &trans    &kp UP_ARROW  &trans     &trans                                                &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp EQUAL
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_UP    &kp HASH         &kp PLUS              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp ENTER
-&trans  &trans    &trans        &trans     &kp PAGE_DOWN  &kp PERCENT      &kp MINUS             &kp N1        &kp NUMBER_2  &kp N3        &kp DOT       &kp DELETE
-&trans  &trans    &trans        &trans     &trans         &trans           &kp NON_US_BACKSLASH  &kp N0                                                  &kp BACKSPACE
+&trans  &trans    &kp UP_ARROW  &trans     &trans                                                &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp JP_EQUAL	
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_UP    &kp JP_HASH         &kp JP_PLUS	         &kp N4        &kp N5        &kp N6        &kp JP_SLASH  &kp ENTER
+&trans  &trans    &trans        &trans     &kp PAGE_DOWN  &kp JP_PRCNT	      &kp JP_MINUS	         &kp N1        &kp NUMBER_2  &kp N3        &kp JP_DOT	 &kp DELETE
+&trans  &trans    &trans        &trans     &trans         &trans           &kp JP_YEN	         &kp N0                                                  &kp BACKSPACE
             >;
         };
 
