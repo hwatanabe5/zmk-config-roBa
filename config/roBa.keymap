@@ -157,7 +157,7 @@
 
         KIGOU {
             bindings = <
-&kp JP_DQT         &trans    &kp UP_ARROW    &trans     &kp JP_SQT                               &kp JP_LPAR	       &kp JP_RPAR	          &kp JP_SEMI    &kp JP_TI       &kp JP_EXCL	
+&kp JP_DQT         &trans    &kp UP_ARROW    &trans     &kp JP_SQT                               &kp JP_LPAR	       &kp JP_RPAR	          &kp JP_SEMI    &kp JP_TILDE        &kp JP_EXCL	
 &kp TAB            &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_UP    &kp JP_HASH      &kp JP_HASH	 &kp JP_LBKT	       &kp JP_RBKT	          &kp JP_COLON   &kp JP_MINUS    &kp JP_QMARK	
 &kp LEFT_SHIFT     &trans    &trans          &trans     &kp PAGE_DOWN  &kp JP_PRCNT	 &kp JP_PERCENT  &kp JP_LT          &kp JP_GT              &kp JP_SLASH   &kp JP_UNDER	 &kp JP_AT	
 &kp LEFT_CONTROL   &trans    &trans          &trans     &trans         &trans           &trans       &trans                                                                      &kp JP_AMPS	
