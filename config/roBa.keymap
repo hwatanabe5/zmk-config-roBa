@@ -146,10 +146,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R                        &kp T                                      &kp Y             &kp U  &kp I     &kp O     &kp P
-&mt CAPSLOCK A  &kp S         &kp D         &kp F                        &kp G  &mkp MB3        &kp COMMA           &kp H             &kp J  &kp K     &kp L     &kp ENTER
-&mt LS(Z) Z     &kp X         &kp C         &kp V                        &kp B  &kp ESCAPE      &kp PERIOD          &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &mo 3  &kp SPACE       &lt 2 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
+&kp Q           &kp W         &kp E         &kp R  &kp T                                      &kp Y             &kp U  &kp I     &kp O     &kp P
+&mt CAPSLOCK A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &kp COMMA           &kp H             &kp J  &kp K     &kp L     &kp ENTER
+&mt LS(Z) Z     &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kp PERIOD          &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -184,21 +184,21 @@
             >;
         };
 
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+            >;
+        };
+
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
