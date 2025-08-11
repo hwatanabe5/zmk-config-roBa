@@ -146,21 +146,21 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I   &kp O     &kp P
-&mt CAPSLOCK A  &kp S         &kp D         &kp F                        &kp G        &mkp MB3                           &kp MINUS      &kp H        &kp J  &kp K     &kp L     &kp SQT
-&mt LS(Z) Z     &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q           &kp W         &kp E         &kp R                        &kp T                                                  &kp Y             &kp U  &kp I     &kp O     &kp P
+&mt CAPSLOCK A  &kp S         &kp D         &kp F                        &kp G        &mkp MB3              &kp MINUS           &kp H             &kp J  &kp K     &kp L     &kp ENTER
+&mt LS(Z) Z     &kp X         &kp C         &kp V                        &kp B        &kp SPACE             &kp UNDERSCORE      &kp N             &kp M  &mkp MB1  &mkp MB2  &kp DELETE
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &kp INT_MUHENKAN      &lt 3 INT_MUHENKAN  &lt 1 INT_HENKAN                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        KIGOU {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans  &trans                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp F4  &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp LT                &kp GT                 &kp SLASH      &trans  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                                                              &kp F12
             >;
         };
 
@@ -173,7 +173,7 @@
             >;
         };
 
-        ARROW {
+        FANCTION {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
