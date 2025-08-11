@@ -157,10 +157,10 @@
 
         KIGOU {
             bindings = <
-&trans  &trans    &kp UP_ARROW    &trans          &trans                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE       &kp EXCLAMATION
-&trans  &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans  &trans      &kp F13  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS       &kp QUESTION
-&trans  &trans    &trans          &trans          &trans  &trans      &trans   &kp LT                &kp GT                 &kp SLASH      &kp UNDERSCORE  &kp AT_SIGN
-&trans  &trans    &trans          &trans          &trans  &trans      &trans   &trans                                                                      &kp AMPERSAND
+&kp DOUBLE_QUOTES  &trans    &kp UP_ARROW    &trans          &kp SQT                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp TILDE       &kp EXCLAMATION
+&trans             &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans   &kp HASH         &kp HASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS       &kp QUESTION
+&trans             &trans    &trans          &trans          &trans   &kp PERCENT      &kp PERCENT  &kp LT                &kp GT                 &kp SLASH      &kp UNDERSCORE  &kp AT_SIGN
+&trans             &trans    &trans          &trans          &trans   &trans           &trans       &trans                                                                      &kp AMPERSAND
             >;
         };
 
