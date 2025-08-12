@@ -140,14 +140,10 @@
 
         default_layer {
             bindings = <
-// &kp Q          &kp W         &kp E         &kp R  &kp T                              &kp Y          &kp U  &kp I     &kp O     &kp P
-// &mt JP_CAPS A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &kp COMMA   &kp H          &kp J  &kp K     &kp L     &kp ENTER
-// &mt LS(Z) Z    &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kP DOT     &kp N          &kp M  &mkp MB1  &mkp MB2  &kp DELETE
-// &kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 JP_MHEN  &lt 1 JP_HENK                             &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp Q          &kp W         &kp E         &kp R  &kp T                              &kp Y          &kp U  &kp I     &kp O     &kp P
+&mt JP_CAPS A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &kp COMMA   &kp H          &kp J  &kp K     &kp L     &kp ENTER
+&mt LS(Z) Z    &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kP DOT     &kp N          &kp M  &mkp MB1  &mkp MB2  &kp DELETE
+&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 JP_MHEN  &lt 1 JP_HENK                          &kp BACKSPACE
         >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -177,10 +173,10 @@
 
         NUM {
             bindings = <
- &trans  &trans          &kp UP_ARROW    &trans           &trans                                         &kp N7  &kp N8        &kp N9  &kp JP_ASTRK  &kp JP_EQUAL
- &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp JP_PLUS   &kp N4  &kp N5        &kp N6  &kp JP_SLASH  &kp ENTER
- &trans  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_MINUS  &kp N1  &kp NUMBER_2  &kp N3  &kp JP_DOT    &kp DELETE
- &trans  &trans          &trans          &trans           &trans         &trans            &kp JP_YEN    &kp N0                                      &kp BACKSPACE
+ &trans  &trans          &kp UP_ARROW    &trans           &trans                                         &kp N7  &kp N8  &kp N9  &kp JP_ASTRK  &kp JP_EQUAL
+ &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp JP_PLUS   &kp N4  &kp N5  &kp N6  &kp JP_SLASH  &kp ENTER
+ &trans  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_MINUS  &kp N1  &kp N2  &kp N3  &kp JP_DOT    &kp DELETE
+ &trans  &trans          &trans          &trans           &trans         &trans            &kp JP_YEN    &kp N0                                &kp BACKSPACE
         >;
 
             sensor-bindings = <&encoder_msc_down_up>;
