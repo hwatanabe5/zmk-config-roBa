@@ -142,8 +142,8 @@
             bindings = <
 &kp Q          &kp W         &kp E         &kp R  &kp T                                 &kp Y          &kp U  &kp I     &kp O     &kp P
 &mt JP_CAPS A  &kp S         &kp D         &kp F  &kp G  &mkp MB3        &kp DELETE     &kp H          &kp J  &kp K     &kp L     &kp ENTER
-&mt LS(Z) Z    &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kp BACKSPACE  &kp N          &kp M  &mkp MB1  &mkp MB2  &kp COMMMA
-&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &mo 4  &mo 3  &kp SPACE       &lt 2 JP_MHEN  &lt 1 JP_HENK                             &kp DOT
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V  &kp B  &kp ESCAPE      &kp BACKSPACE  &kp N          &kp M  &mkp MB1  &mkp MB2  &kp COMMMA
+&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 3  &kp SPACE       &lt 2 JP_MHEN  &lt 1 JP_HENK                             &kp DOT
         >;
 
             sensor-bindings = <&encoder_msc_down_up>;
