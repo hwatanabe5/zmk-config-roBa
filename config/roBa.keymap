@@ -151,10 +151,10 @@
 
         KIGOU1 {
             bindings = <
-&kp TAB         &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                      &kp JP_TILDE  &kp JP_LPAR  &kp JP_RPAR  &kp JP_SEMI   &kp JP_EXCL
-&kp JP_CAPS     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp DELETE     &kp JP_COMMA  &kp JP_LBKT  &kp JP_RBKT  &kp JP_COLON  &kp JP_QMARK
-&kp LEFT_SHIFT  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp BACKSPACE  &kp DOT       &kp JP_LT    &kp JP_RT    &kp JP_SLASH  &kp JP_AT
-&kp LCTRL       &kp LEFT_WIN    &kp LEFT_ALT    &kp LEFT_SHIFT   &kp SPACE      &kp DELETE        &kp BACKSPACE  &trans                                                &kp JP_AMPS
+&kp TAB         &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                     &kp JP_TILDE  &kp JP_HASH     &kp JP_SEMI   &kp JP_LPAR  &kp JP_RPAR
+&kp JP_CAPS     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &trans            &kp JP_AT     &kp JP_COMMA  &kp JP_EXCL     &kp JP_COLON  &kp JP_LBKT  &kp JP_RBKT 
+&kp LEFT_SHIFT  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_AMPS   &kp DOT       &kp JP_QMARK    &kp JP_SLASH  &kp JP_LT    &kp JP_RT
+&kp LCTRL       &kp LEFT_WIN    &kp LEFT_ALT    &kp LEFT_SHIFT   &kp SPACE      &kp BACKSPACE     &kp DELETE    &trans                                                   &kp JP_DLLR
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
