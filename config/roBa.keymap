@@ -140,22 +140,22 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W         &kp E         &kp R                     &kp T                                                        &kp Y          &kp U          &kp I        &kp O    　    &kp P
-&kp A          &kp S         &kp D         &kp F                     &kp G             &mkp MB3              &kp MINUS            &kp H          &kp J          &kp K        &kp L          &kp ENTER
-&kp Z          &kp X         &kp C         &kp V                     &kp B             &kp ESCAPE            &kp JP_UNDER         &kp N          &kp M          &mkp MB1     &mkp MB2       &kp ENTER
-&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT JP_MHEN 　 &lt 3 SPACE       &lt 2 DELETE          &lt 4 BACKSPACE      &lt 1 JP_HENK                                             &kp ENTER
-        >;
+&kp Q      &kp W         &kp E         &kp R           &kp T                                                   &kp Y          &kp U  &kp I     &kp O     &kp P
+&kp A      &kp S         &kp D         &kp F           &kp G                    &mkp MB3        &kp DELETE     &kp H          &kp J  &kp K     &kp L     &kp ENTER
+&kp Z      &kp X         &kp C         &kp V           &kp B                    &kp ESCAPE      &kp BACKSPACE  &kp N          &kp M  &mkp MB1  &mkp MB2  &kp MINUS
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &mt LSHIFT INT_MUHENKAN  &kp SPACE       &lt 2 JP_MHEN  &lt 1 JP_HENK                             &kp JP_UNDER
+            >;
 
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
         KIGOU1 {
             bindings = <
-&kp TAB           &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                    &kp JP_TILDE &kp JP_LPAR  &kp JP_RPAR  &kp JP_SEMI    &kp JP_EXCL
-&kp JP_CAPS       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp DELETE   &kp JP_COMMA &kp JP_LBKT  &kp JP_RBKT  &kp JP_COLON    &kp JP_QMARK
-&kp LEFT_SHIFT    &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp BACKSPACE &kp DOT  &kp JP_LT    &kp JP_RT    &kp JP_SLASH    &kp JP_AT
-&kp LCTRL      &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT          &kp SPACE       &kp DELETE                  &kp BACKSPACE        &trans                                            &kp JP_AMPS
-        >;
+&kp TAB         &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                      &kp JP_TILDE  &kp JP_LPAR  &kp JP_RPAR  &kp JP_SEMI   &kp JP_EXCL
+&kp JP_CAPS     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp DELETE     &kp JP_COMMA  &kp JP_LBKT  &kp JP_RBKT  &kp JP_COLON  &kp JP_QMARK
+&kp LEFT_SHIFT  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp BACKSPACE  &kp DOT       &kp JP_LT    &kp JP_RT    &kp JP_SLASH  &kp JP_AT
+&kp LCTRL       &kp LEFT_WIN    &kp LEFT_ALT    &kp LEFT_SHIFT   &kp SPACE      &kp DELETE        &kp BACKSPACE  &trans                                                &kp JP_AMPS
+            >;
 
             sensor-bindings = <&encoder_msc_down_up>;
         };
@@ -171,13 +171,13 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        NUM3  {
+        NUM3 {
             bindings = <
- &trans  &trans          &kp UP_ARROW    &trans           &trans                                         &kp N7  &kp N8  &kp N9  &kp JP_ASTRK  &kp JP_EQUAL
- &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp JP_PLUS   &kp N4  &kp N5  &kp N6  &kp JP_SLASH  &kp ENTER
- &trans  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_MINUS  &kp N1  &kp N2  &kp N3  &kp JP_DOT    &kp DELETE
- &trans  &trans          &trans          &trans           &trans         &trans            &kp JP_YEN    &kp N0                                &kp BACKSPACE
-        >;
+&trans  &trans          &kp UP_ARROW    &trans           &trans                                         &kp N7  &kp N8  &kp N9  &kp JP_ASTRK  &kp JP_EQUAL
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp JP_HASH       &kp JP_PLUS   &kp N4  &kp N5  &kp N6  &kp JP_SLASH  &kp ENTER
+&trans  &trans          &trans          &trans           &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_MINUS  &kp N1  &kp N2  &kp N3  &kp JP_DOT    &kp DELETE
+&trans  &trans          &trans          &trans           &trans         &trans            &kp JP_YEN    &kp N0                                &kp BACKSPACE
+            >;
 
             sensor-bindings = <&encoder_msc_down_up>;
         };
