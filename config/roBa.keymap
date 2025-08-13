@@ -143,7 +143,7 @@
 &kp Q      &kp W           &kp E         &kp R                   &kp T                                           &kp Y          &kp U  &kp I     &kp O     &kp P
 &kp A      &kp S           &kp D         &kp F                   &kp G        &mkp MB3          &kp MINUS        &kp H          &kp J  &kp K     &kp L     &kp ENTER
 &kp Z      &kp X           &kp C         &kp V                   &kp B        &lt 5 ESCAPE      &kp JP_UNDER     &kp N          &kp M  &mkp MB1  &mkp MB2  &lt 5 ENTER
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_WIN  &mt JP_MHEN LEFT_ALT    &lt 3 SPACE    &lt 6 DELETE      &lt 2 BACKSPACE  &lt 1 JP_HENK                           &lt 5 BACKSPACE
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_WIN  &mt LEFT_ALT JP_MHEN    &lt 3 SPACE    &lt 6 DELETE      &lt 2 BACKSPACE  &lt 1 JP_HENK                           &lt 5 BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -202,7 +202,7 @@
 
         SC {
             bindings = <
-&bt BT_SEL 0       &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL4                      &trans          &trans          &kp UP_ARROW    &trans                &trans                          
+&bt BT_SEL 0       &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4        　           &trans          &trans          &kp UP_ARROW    &trans                &trans                          
 &bt BT_CLR        &bt BT_CLR_ALL  &trans        &trans           &trans  &trans      &trans       &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans
 &bootloader       &trans          &trans        &trans           &trans  &trans      &trans       &trans          &trans          &trans          &trans                &trans
 &trans            &trans          &trans        &trans           &trans  &trans      &kp PRINTSCREEN       &kp LEFT_WIN                                                 &trans
