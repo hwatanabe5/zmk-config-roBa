@@ -156,10 +156,10 @@
 
         KIGOU1 {
             bindings = <
-&kp TAB       &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                      &kp JP_TILDE  &kp JP_EXCL   &kp JP_SEMI   &kp JP_LPAR  &kp JP_RPAR
-&kp JP_CAPS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &trans            &kp JP_UNDER   &kp JP_COMMA  &kp JP_QMARK  &kp JP_COLON  &kp JP_LBKT  &kp JP_RBKT
-&kp JP_CARET  &kp JP_DLLR     &kp JP_YEN      &kp JP_HASH      &kp PAGE_DOWN  &kp JP_PRCNT      &kp JP_AMPS    &kp DOT       &kp JP_AT     &kp JP_SLASH  &kp JP_LT    &kp JP_RT
-&trans        &trans          &trans          &trans           &kp SPACE      &kp DELETE        &kp BACKSPACE  &trans                                                 &kp JP_PIPE
+&kp JP_PRCNT       &trans          &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                      &kp JP_TILDE  &kp JP_EXCL   &kp JP_SEMI   &kp JP_LPAR  &kp JP_RPAR
+&kp JP_CAPS        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &trans            &kp JP_UNDER   &kp JP_COMMA  &kp JP_QMARK  &kp JP_COLON  &kp JP_LBKT  &kp JP_RBKT
+&kp JP_CARET       &kp JP_DLLR     &kp JP_YEN      &kp JP_HASH      &kp PAGE_DOWN  &kp DELETE        &kp JP_AMPS    &kp DOT       &kp JP_AT     &kp JP_SLASH  &kp JP_LT    &kp JP_RT
+&trans             &trans          &trans          &trans           &kp TAB        &kp SPACE         &kp BACKSPACE  &trans                                                 &kp JP_PIPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -168,9 +168,9 @@
         FANCTION2 {
             bindings = <
 &trans  &trans          &kp UP_ARROW    &trans           &trans                                     &kp F1  &kp F2  &kp F3  &kp F12  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP      &trans      &kp LS(INSERT)  &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&trans  &trans          &trans          &trans           &kp PAGE_DOWN  &trans      &kp LC(INSERT)  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &trans          &trans          &trans           &trans         &trans      &trans          &trans                           &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP      &trans           &kp LS(INSERT)  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &trans          &trans          &trans           &kp PAGE_DOWN  &kp DELETE       &kp LC(INSERT)  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans          &trans          &trans           &kp TAB        &kp SPACE        &trans          &trans                           &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -208,9 +208,9 @@
         SC {
             bindings = <
 &trans  &trans          &kp UP_ARROW     &trans             &kp PRINTSCREEN                                      &trans              &trans               &trans    &trans    &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp PAGE_UP      &trans               &trans         &kp LG(UP_ARROW)    &kp LG(DOWN_ARROW)   &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans          &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN    &kp LS(JP_EISU)      &trans         &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans          &trans           &trans             &kp SPACE        &trans               &kp BACKSPACE  &trans                                                       &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp PAGE_UP           &trans               &trans         &kp LG(UP_ARROW)    &kp LG(DOWN_ARROW)   &mkp MB1  &mkp MB2  &mkp MB3
+&trans  &trans          &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN         &kp DELETE           &trans         &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1  &mkp MB2  &mkp MB3
+&trans  &trans          &trans           &trans             &kp LS(JP_EISU)       &trans               &kp BACKSPACE  &trans                                                       &trans
             >;
         };
     };
