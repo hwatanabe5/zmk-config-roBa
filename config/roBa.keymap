@@ -147,7 +147,7 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                   &kp T                                            &kp Y        &kp U  &kp I     &kp O     &kp P
 &kp A      &kp S         &kp D         &kp F                   &kp G        &mkp MB3           &kp DELETE       &kp H        &kp J  &kp K     &kp L     &kp ENTER
-&kp Z      &kp X         &kp C         &kp V                   &kp B        &lt 5 ESCAPE       &kp MINUS        &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 5 MINUS
+&kp Z      &kp X         &kp C         &kp V                   &kp B        &lt 5 ESCAPE       &kp TAB          &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 5 MINUS
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT JP_MHEN  &lt 3 SPACE  &lt 6 JP_HENK      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp TAB
             >;
 
@@ -207,10 +207,10 @@
 
         SC {
             bindings = <
-&trans     &trans     &trans     &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                                      &kp LC(Y)           &kp LC(U)            &kp UP_ARROW    &trans           &kp PAGE_UP
-&kp LC(A)  &kp LC(S)  &trans     &kp LC(F)        &kp LC(G)          &trans          &kp DELETE          &kp LG(UP_ARROW)    &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp LC(B)          &kp ESCAPE      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1        &mkp MB2         &mkp MB3
-&trans     &trans     &trans     &kp LC(LS(V))    &kp LS(JP_EISU)    &trans          &kp BACKSPACE       &kp ENTER                                                                 &kp PRINTSCREEN
+&PRINTSCREEN     &trans     &trans     &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                                      &kp LC(Y)           &kp LC(U)            &kp UP_ARROW    &trans           &kp PAGE_UP
+&kp LC(A)        &kp LC(S)  &trans     &kp LC(F)        &kp LC(G)          &trans          &kp DELETE          &kp LG(UP_ARROW)    &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LC(Z)        &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp LC(B)          &kp ESCAPE      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1        &mkp MB2         &mkp MB3
+&trans           &trans     &trans     &kp LC(LS(V))    &kp LS(JP_EISU)    &trans          &kp BACKSPACE       &kp ENTER                                                                 &trans
             >;
         };
     };
