@@ -207,10 +207,10 @@
 
         SC {
             bindings = <
-&trans  &trans          &kp UP_ARROW     &trans             &kp PRINTSCREEN                                               &trans              &trans               &trans    &trans    &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp PAGE_UP           &trans               &trans             &kp LG(UP_ARROW)    &kp LG(DOWN_ARROW)   &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans          &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN         &kp ESCAPE           &kp DELETE         &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1  &mkp MB2  &mkp MB3
-&trans  &trans          &trans           &trans             &kp LS(JP_EISU)       &trans               &kp BACKSPACE      &kp ENTER                                                    &trans
+&trans  &trans          &trans           &trans             &trans                                                                &kp LC(PAGE_UP)     &kp LC(PAGE_DOWN)             &kp UP_ARROW     &trans           &kp PAGE_UP
+&trans  &trans          &trans           &trans             &trans                &trans               &trans                     &kp LG(UP_ARROW)    &kp LEFT_ARROW                &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp PAGE_DOWN
+&trans  &trans          &trans           &trans             &trans                &kp ESCAPE           &kp LG(DOWN_ARROW)         &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)           &mkp MB1         &mkp MB2         &mkp MB3
+&trans  &trans          &trans           &trans             &kp LS(JP_EISU)       &trans               &kp BACKSPACE              &kp ENTER                                                                           &kp PRINTSCREEN 
             >;
         };
     };
