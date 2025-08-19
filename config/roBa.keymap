@@ -207,10 +207,10 @@
 
         SC {
             bindings = <
-&kp PRINTSCREEN  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(INSERT)  &kp LS(INSERT)                                      &kp LC(Y)           &kp LC(U)            &kp UP_ARROW    &trans           &kp PAGE_UP
-&kp LC(A)        &kp LC(S)        &trans             &kp LC(F)       &kp LC(G)       &trans          &kp DELETE          &kp LG(UP_ARROW)    &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LC(Z)        &kp LC(X)        &kp LC(C)          &kp LC(V)       &kp LC(B)       &kp ESCAPE      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1        &mkp MB2         &mkp MB3
-&trans           LS(JP_EISU)      &kp LC(LSHIFT)     &kp LSHIFT      &kp SPACE       &trans          &kp BACKSPACE       &kp ENTER                                                                 &trans
+&kp PRINTSCREEN  &kp LC(PAGE_UP)      &kp LC(PAGE_DOWN)  &kp LC(INSERT)  &kp LS(INSERT)                                      &kp LC(Y)           &kp LC(U)            &kp UP_ARROW    &trans           &kp PAGE_UP
+&kp LC(A)        &kp LC(S)            &trans             &kp LC(F)       &kp LC(G)       &trans          &kp DELETE          &kp LG(UP_ARROW)    &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LC(Z)        &kp LC(X)            &kp LC(C)          &kp LC(V)       &kp LC(B)       &kp ESCAPE      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB1        &mkp MB2         &mkp MB3
+&trans           &kp LS(JP_EISU)      &kp LC(LSHIFT)     &kp LSHIFT      &kp SPACE       &trans          &kp BACKSPACE       &kp ENTER                                                                 &trans
             >;
         };
     };
