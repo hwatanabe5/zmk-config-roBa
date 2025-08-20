@@ -1,4 +1,4 @@
-#include <input/processors.dtsi>
+ｗ#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -195,10 +195,10 @@
 
         MOUSE {
             bindings = <
-&kp LS(SQT)  &kp N7  &kp N8  &kp N9     &kp LS(SEMI)                                   &kp LC(Z)      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LC(Y)
-&kp SLASH    &kp N4  &kp N5  &kp N6     &kp MINUS      &trans              &kp COMMA   &kp PAGE_UP    &mkp LCLK       &kp DOWN_ARROW  &mkp RCLK        &kp LEFT_SHIFT
-&kp INT_YEN  &kp N1  &kp N2  &kp N3     &kp LS(MINUS)  &kp DOLLAR          &kp PERIOD  &kp PAGE_DOWN  &kp HOME        &kp END         &mkp MB4         &kp LEFT_CONTROL
-&trans       &kp N0  &trans  &kp LCTRL  &kp TAB        &kp LEFT_SHIFT      &trans      &trans                                                          &mkp MB5
+&trans        &trans        &trans          &trans        &trans                      &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans          &trans        &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &bt BT_CLR    &bt BT_CLR_ALL  &bootloader   &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -222,10 +222,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LS(SQT)  &kp N7  &kp N8  &kp N9     &kp LS(SEMI)                                   &kp LC(Z)      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LC(Y)
+&kp SLASH    &kp N4  &kp N5  &kp N6     &kp MINUS      &trans              &kp COMMA   &kp PAGE_UP    &mkp LCLK       &kp DOWN_ARROW  &mkp RCLK        &kp LEFT_SHIFT
+&kp INT_YEN  &kp N1  &kp N2  &kp N3     &kp LS(MINUS)  &kp DOLLAR          &kp PERIOD  &kp PAGE_DOWN  &kp HOME        &kp END         &mkp MB4         &kp LEFT_CONTROL
+&trans       &kp N0  &trans  &kp LCTRL  &kp TAB        &kp LEFT_SHIFT      &trans      &trans                                                          &mkp MB5
             >;
         };
     };
