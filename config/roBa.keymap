@@ -222,10 +222,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans          &kp UP_ARROW    &trans           &kp JP_COLON                             &kp N7  &kp N8  &kp N9  &kp JP_ASTRK  &kp JP_PLUS
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp JP_EQUAL  &trans      &kp DELETE     &kp N4  &kp N5  &kp N6  &kp JP_SLASH  &kp JP_MINUS
+&trans  &kp JP_PRCNT    &kp JP_HASH     &kp JP_LPAR      &kp JP_RPAR   &trans      &kp ENTER      &kp N1  &kp N2  &kp N3  &kp JP_DOT    &kp JP_EQUAL
+&trans  &trans          &trans          &trans           &trans        &trans      &kp BACKSPACE  &kp N0                                &kp JP_SLASH
             >;
         };
     };
