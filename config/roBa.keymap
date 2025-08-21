@@ -173,10 +173,10 @@
 
         FANCTION2 {
             bindings = <
-&kp LS(INSERT)  &kp F1  &kp F2  &kp F3       &kp F12                                               &kp LC(Z)       &kp LC(Y)       &kp UP_ARROW    &mkp MB4         &mkp MB5
-&kp LC(INSERT)  &kp F4  &kp F5  &kp F6       &kp F11      &trans             &kp HOME              &kp PAGE_UP     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE
-&trans          &kp F7  &kp F8  &kp F9       &kp F10      &kp ESCAPE         &kp END               &kp PAGE_DOWN   &kp DELETE      &trans          &trans           &kp LEFT_CONTROL
-&trans          &trans  &trans  &trans       &trans       &kp SPACE          &kp LS(LEFT_CONTROL)  &trans                                                           &trans
+&kp F1          &kp F2  &kp F3       &kp F12         &kp LS(INSERT)                                         &kp LC(Z)       &kp LC(Y)       &kp UP_ARROW    &mkp MB4         &mkp MB5
+&kp F4          &kp F5  &kp F6       &kp F11         &kp LC(INSERT)   &trans             &kp HOME           &kp PAGE_UP     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE
+&kp F7          &kp F8  &kp F9       &kp F10         &trans           &kp ESCAPE         &kp END            &kp PAGE_DOWN   &kp DELETE      &trans          &trans           &kp LEFT_CONTROL
+&trans          &trans  &trans       &trans          &trans           &kp SPACE          &trans             &trans                                                           &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
