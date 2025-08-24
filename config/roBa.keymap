@@ -65,7 +65,7 @@
         18 // J
         19 // K
         20 // L
-        39 // Shift
+        // 39 // Shift
     >;
 };
 
@@ -195,10 +195,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans                       &trans                 &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &kp LG(UP_ARROW)             &mkp MB1               &mkp MB2   &kp LCTRL &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)           &kp LG(RIGHT_ARROW)    &trans     &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                                                   &trans
+&trans  &trans  &trans  &trans  &trans                                  &trans          &trans             &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans          &mkp MB1           &mkp MB2   &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans          &trans             &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                                  &trans
             >;
         };
 
