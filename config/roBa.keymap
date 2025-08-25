@@ -75,7 +75,7 @@
 
 //マウスクリック操作時AML動作定義
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 600000>; };
 
 &trackball {
     //  automouse-layer = <4>;
