@@ -174,7 +174,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        KIGOU1 {
+        KIGOU {
             bindings = <
 &kp JP_PRCNT  &kp JP_EQUAL    &kp UP_ARROW    &kp JP_DQT       &kp JP_SQT                                  &kp JP_TILDE  &kp JP_EXCL   &kp JP_ASTRK  &kp JP_LPAR  &kp JP_RPAR
 &kp JP_CAPS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &trans         &kp JP_SLASH  &kp JP_COMMA  &kp JP_QMARK  &kp JP_COLON  &kp JP_LBKT  &kp JP_RBKT
@@ -185,7 +185,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        FANCTION2 {
+        FANCTION {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                            &kp LC(Z)      &kp LC(Y)       &kp UP_ARROW    &mkp MB4         &mkp MB5
 &kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans          &kp HOME  &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE
@@ -234,12 +234,21 @@
             >;
         };
 
-        layer_7 {
+        FANCTION2 {
             bindings = <
-&kp LS(SQT)  &kp N7  &kp N8  &kp N9     &kp LS(SEMI)                                   &kp LC(Z)      &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LC(Y)
-&kp SLASH    &kp N4  &kp N5  &kp N6     &kp MINUS      &trans              &kp COMMA   &kp PAGE_UP    &mkp LCLK       &kp DOWN_ARROW  &mkp RCLK        &kp LEFT_SHIFT
-&kp INT_YEN  &kp N1  &kp N2  &kp N3     &kp LS(MINUS)  &kp DOLLAR          &kp PERIOD  &kp PAGE_DOWN  &kp HOME        &kp END         &mkp MB4         &kp LEFT_CONTROL
-&trans       &kp N0  &trans  &kp LCTRL  &kp TAB        &kp LEFT_SHIFT      &trans      &trans                                                          &mkp MB5
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        SC2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
