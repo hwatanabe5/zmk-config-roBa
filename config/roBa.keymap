@@ -277,21 +277,21 @@
         kakko1: kakko1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            bindings = <&kp EQUAL &kp JP_LPAR &kp JP_RPAR &kp LEFT>;
             label = "KAKKO1";
         };
 
         kakko2: kakko2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
+            bindings = <&kp JP_LBKT &kp JP_RBKT &kp LEFT_ARROW>;
             label = "KAKKO2";
         };
 
         kakko3: kakko3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LESS_THAN &kp GREATER_THAN &kp LEFT_ARROW>;
+            bindings = <&kp LESS_THAN &kp JP_LT &kp JP_RT>;
             label = "KAKKO3";
         };
     };
