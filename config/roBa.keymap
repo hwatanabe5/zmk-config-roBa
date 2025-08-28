@@ -263,7 +263,6 @@
         MB3_ {
             bindings = <&mkp MB3>;
             key-positions = <20 18>;
-            timeout-ms = <100>;
         };
     };
 
