@@ -171,67 +171,67 @@
         };
 
         EQ_ {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_EQUAL>;
             key-positions = <2 3>;
         };
 
         KAKKO1 {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp JP_LPAR>;
             key-positions = <3 4>;
         };
 
         KAKKO2 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp JP_RPAR>;
             key-positions = <5 6>;
         };
 
         KAKKO3 {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp JP_LBKT>;
             key-positions = <13 14>;
         };
 
         KAKKO4 {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp JP_RBKT>;
             key-positions = <17 18>;
         };
 
         KAKKO5 {
-            bindings = <&kp LESS_THAN>;
+            bindings = <&kp JP_LT>;
             key-positions = <25 26>;
         };
 
         KAKKO6 {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp JP_RT>;
             key-positions = <29 30>;
         };
 
         EXCL_ {
-            bindings = <&kp EXCLAMATION>;
+            bindings = <&kp JP_EXCL>;
             key-positions = <6 7>;
         };
 
         QMARK_ {
-            bindings = <&kp QUESTION>;
+            bindings = <&kp JP_QMARK>;
             key-positions = <18 19>;
         };
 
         AT_ {
-            bindings = <&kp AT_SIGN>;
+            bindings = <&kp JP_AT>;
             key-positions = <30 31>;
         };
 
         ASTRK_ {
-            bindings = <&kp ASTERISK>;
+            bindings = <&kp JP_ASTRK>;
             key-positions = <7 8>;
         };
 
         COLON_ {
-            bindings = <&kp COLON>;
+            bindings = <&kp JP_COLON>;
             key-positions = <19 20>;
         };
 
         SEMI_ {
-            bindings = <&kp SEMICOLON>;
+            bindings = <&kp JP_SEMI>;
             key-positions = <31 32>;
         };
     };
