@@ -250,11 +250,6 @@
             key-positions = <0 1>;
         };
 
-        ALTTAB_ {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <11 12>;
-        };
-
         BS_ {
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
