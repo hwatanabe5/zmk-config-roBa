@@ -108,7 +108,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
-            timeout-ms = <100>;
         };
 
         F7_ {
@@ -249,19 +248,16 @@
         ESC_ {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-            timeout-ms = <100>;
         };
 
         BS_ {
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
-            timeout-ms = <100>;
         };
 
         DEL_ {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
-            timeout-ms = <100>;
         };
 
         MB3_ {
