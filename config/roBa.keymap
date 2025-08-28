@@ -110,9 +110,129 @@
             key-positions = <0 1>;
         };
 
-        kana {
-            bindings = <&kp JP_ZKHK>;
-            key-positions = <34 38>;
+        F7_ {
+            bindings = <&kp F7>;
+            key-positions = <38 22>;
+        };
+
+        F8_ {
+            bindings = <&kp F8>;
+            key-positions = <38 23>;
+        };
+
+        F9_ {
+            bindings = <&kp F9>;
+            key-positions = <38 24>;
+        };
+
+        F10_ {
+            bindings = <&kp F10>;
+            key-positions = <38 25>;
+        };
+
+        F6_ {
+            bindings = <&kp F6>;
+            key-positions = <38 12>;
+        };
+
+        F5_ {
+            bindings = <&kp F5>;
+            key-positions = <38 11>;
+        };
+
+        F4_ {
+            bindings = <&kp F4>;
+            key-positions = <38 10>;
+        };
+
+        F3_ {
+            bindings = <&kp F3>;
+            key-positions = <38 2>;
+        };
+
+        F2_ {
+            bindings = <&kp F2>;
+            key-positions = <38 1>;
+        };
+
+        F1_ {
+            bindings = <&kp F1>;
+            key-positions = <38 0>;
+        };
+
+        F11_ {
+            bindings = <&kp F11>;
+            key-positions = <38 13>;
+        };
+
+        F12_ {
+            bindings = <&kp F12>;
+            key-positions = <38 3>;
+        };
+
+        EQ_ {
+            bindings = <&kp EQUAL>;
+            key-positions = <2 3>;
+        };
+
+        KAKKO1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <3 4>;
+        };
+
+        KAKKO2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <5 6>;
+        };
+
+        KAKKO3 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14>;
+        };
+
+        KAKKO4 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <17 18>;
+        };
+
+        KAKKO5 {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <25 26>;
+        };
+
+        KAKKO6 {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <29 30>;
+        };
+
+        EXCL_ {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <6 7>;
+        };
+
+        QMARK_ {
+            bindings = <&kp QUESTION>;
+            key-positions = <18 19>;
+        };
+
+        AT_ {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <30 31>;
+        };
+
+        ASTRK_ {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 8>;
+        };
+
+        COLON_ {
+            bindings = <&kp COLON>;
+            key-positions = <19 20>;
+        };
+
+        SEMI_ {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <31 32>;
         };
     };
 
