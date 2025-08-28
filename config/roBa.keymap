@@ -107,7 +107,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
         };
 
         F7_ {
@@ -212,7 +212,7 @@
 
         QMARK_ {
             bindings = <&kp JP_QMARK>;
-            key-positions = <18 19>;
+            key-positions = <2 3>;
         };
 
         AT_ {
@@ -227,12 +227,42 @@
 
         COLON_ {
             bindings = <&kp JP_COLON>;
-            key-positions = <19 20>;
+            key-positions = <23 24>;
         };
 
         SEMI_ {
             bindings = <&kp JP_SEMI>;
             key-positions = <31 32>;
+        };
+
+        MB1_ {
+            bindings = <&mkp MB1>;
+            key-positions = <19 18>;
+        };
+
+        MB2_ {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        ESC_ {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        ALTTAB_ {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <11 12>;
+        };
+
+        BS_ {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
+        };
+
+        DEL_ {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
         };
     };
 
