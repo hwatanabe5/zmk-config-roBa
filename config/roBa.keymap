@@ -70,8 +70,8 @@
        //  29 //
        //  30 //
        //  37 // 左下左
-           38 // 左下中
-       //  39 // 左下右
+       //  38 // 左下中
+           39 // 左下右
     >;
 };
 
@@ -210,10 +210,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &trans              &trans               &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &kp LG(UP_ARROW)    &mkp MB1             &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &trans    &trans    &kp LEFT_CONTROL
-&trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                                       &trans
+&trans  &trans  &trans  &trans  &trans                                             &trans              &trans               &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                         &trans              &mkp MB1             &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                         &trans              &kp LG(RIGHT_ARROW)  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &mt LEFT_SHIFT SPACE           &trans                                                       &trans
             >;
         };
 
@@ -237,19 +237,19 @@
 
         FUNCTION2 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                                        &kp LG(DOWN_ARROW)           &kp LG(LEFT_ARROW)    &kp LG(UP_ARROW)         &kp LG(RIGHT_ARROW)          &mkp MB3                    
-&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)      &trans              &kp HOME      &kp PAGE_UP                  &mkp MB1              &kp UP_ARROW             &mkp MB2                     &mkp MB4
-&kp F7  &kp F8  &kp F9  &kp F10  &trans              &kp LC(LSHIFT)      &kp END       &kp PAGE_DOWN                &kp LEFT_ARROW        &kp DOWN_ARROW           &kp RIGHT_ARROW              &mkp MB5
-&trans  &trans  &trans  &trans   &kp LSHIFT          &kp SPACE           &trans        &trans                                                                                                   &trans
+&kp F1  &kp F2  &kp F3  &kp F12   &kp LS(INSERT)                                                                              &kp LG(DOWN_ARROW)           &kp LG(LEFT_ARROW)    &kp LG(UP_ARROW)         &kp LG(RIGHT_ARROW)          &mkp MB3                    
+&kp F4  &kp F5  &kp F6  &kp F11   &kp LC(INSERT)      &trans                                      &kp HOME                    &kp PAGE_UP                  &mkp MB1              &kp UP_ARROW             &mkp MB2                     &mkp MB4
+&kp F7  &kp F8  &kp F9  &kp F10   &kp INSERT          &trans                                      &kp END                     &kp PAGE_DOWN                &kp LEFT_ARROW        &kp DOWN_ARROW           &kp RIGHT_ARROW              &mkp MB5
+&trans  &trans  &trans  &trans    &trans              &mt LEFT_SHIFT SPACE                        &trans                      &trans                                                                                                   &trans
             >;
         };
 
         SC2 {
             bindings = <
-&kp PRINTSCREEN  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(INSERT)          &kp LS(INSERT)                                                    &kp LG(DOWN_ARROW)           &kp LG(LEFT_ARROW)    &kp LG(UP_ARROW)         &kp LG(RIGHT_ARROW)          &mkp MB3
-&kp LC(A)        &kp LC(S)        &trans             &kp LC(F)               &kp LC(G)               &trans                &kp DELETE          &kp PAGE_UP                  &mkp MB1              &kp UP_ARROW             &mkp MB2                     &kp LC(PAGE_UP)
-&kp LC(Z)        &kp LC(X)        &kp LC(C)          &kp LC(V)               &kp LC(B)               &kp LC(LSHIFT)        &kp LEFT_WIN        &kp PAGE_DOWN                &kp LEFT_ARROW        &kp DOWN_ARROW           &kp RIGHT_ARROW              &kp LC(PAGE_DOWN)
-&trans           &trans           &trans             &kp LS(JP_EISU)         &kp LSHIFT              &trans                &kp BACKSPACE       &kp ENTER                                                                                                &trans
+&kp PRINTSCREEN  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(INSERT)          &kp LS(INSERT)                                                        &kp LG(DOWN_ARROW)           &kp LG(LEFT_ARROW)    &kp LG(UP_ARROW)         &kp LG(RIGHT_ARROW)          &mkp MB3
+&kp LC(A)        &kp LC(S)        &trans             &kp LC(F)               &kp LC(G)               &trans                    &kp DELETE          &kp PAGE_UP                  &mkp MB1              &kp UP_ARROW             &mkp MB2                     &kp LC(PAGE_UP)
+&kp LC(Z)        &kp LC(X)        &kp LC(C)          &kp LC(V)               &kp LC(LSHIFT)          &kp LSHIFT                &kp LEFT_WIN        &kp PAGE_DOWN                &kp LEFT_ARROW        &kp DOWN_ARROW           &kp RIGHT_ARROW              &kp LC(PAGE_DOWN)
+&trans           &trans           &kp LS(JP_EISU)    &kp LS(JP_EISU)         &trans                  &kp LSHIFT                &kp BACKSPACE       &kp ENTER                                                                                                &trans
             >;
         };
     };
