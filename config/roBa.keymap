@@ -264,6 +264,11 @@
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
         };
+
+        MB3_ {
+            bindings = <&mkp MB3>;
+            key-positions = <20 18>;
+        };
     };
 
     macros {
