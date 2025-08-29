@@ -454,10 +454,10 @@
 
         SC2 {
             bindings = <
-&kp PRINTSCREEN  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(INSERT)   &kp LS(INSERT)                                 &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)        &kp LS(JP_EISU)    &kp LC(F)        &kp LSHIFT      &trans          &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &kp LC(PAGE_UP)
-&kp LC(Z)        &kp LC(X)        &kp LC(C)          &kp LC(V)        &kp LC(LSHIFT)  &kp LSHIFT      &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
-&trans           &trans           &kp LA(TAB)        &kp LS(JP_EISU)  &trans          &kp LSHIFT      &kp BACKSPACE  &kp ENTER                                                                      &trans
+&kp PRINTSCREEN  &kp LC(W)        &kp INSERT         &kp LC(INSERT)   &kp LS(INSERT)                                     &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp LC(A)        &kp LC(S)        &kp LS(JP_EISU)    &kp LC(F)        &kp LC(LSHIFT)      &trans          &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &kp LC(PAGE_UP)
+&kp LC(Z)        &kp LC(X)        &kp LC(C)          &kp LC(V)        &kp LSHIFT          &kp LSHIFT      &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
+&trans           &trans           &kp LA(TAB)        &kp LS(JP_EISU)  &trans              &kp LSHIFT      &kp BACKSPACE  &kp ENTER                                                                      &trans
             >;
         };
     };
