@@ -259,21 +259,29 @@
         UP_ {
             bindings = <&kp UP_ARROW>;
             key-positions = <6 7>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
         };
 
         LEFT_ {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <17 18>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
         };
 
         RIGHT_ {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <19 20>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
         };
 
         DOWN_ {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <19 18>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
         };
 
         AND_ {
