@@ -273,7 +273,7 @@
         };
 
         AND_ {
-            bindings = <&kp LC(AMPS)>;
+            bindings = <&kp JP_AMPS>;
             key-positions = <24 25>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
