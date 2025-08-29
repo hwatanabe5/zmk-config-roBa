@@ -197,7 +197,7 @@
 
         EXCL_ {
             bindings = <&kp JP_EXCL>;
-            key-positions = <6 7>;
+            key-positions = <13 12>;
         };
 
         QMARK_ {
@@ -229,12 +229,12 @@
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <19 18>;
+            key-positions = <18 20>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <19 20>;
+            key-positions = <21 19>;
         };
 
         ESC_ {
@@ -254,7 +254,27 @@
 
         MB3_ {
             bindings = <&mkp MB3>;
-            key-positions = <20 18>;
+            key-positions = <21 18>;
+        };
+
+        UP_ {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <6 7>;
+        };
+
+        LEFT_ {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <17 18>;
+        };
+
+        RIGHT_ {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <19 20>;
+        };
+
+        DOWN_ {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <19 18>;
         };
     };
 
