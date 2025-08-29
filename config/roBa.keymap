@@ -238,7 +238,7 @@
         };
 
         UNDERBAR_ {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp JP_UNDER>;
             key-positions = <20 21>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
