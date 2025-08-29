@@ -176,33 +176,23 @@
         };
 
         KAKKO1 {
-            bindings = <&kp JP_LPAR>;
-            key-positions = <3 4>;
+            bindings = <&kakko1>;
+            key-positions = <4 5>;
         };
 
         KAKKO2 {
-            bindings = <&kp JP_RPAR>;
-            key-positions = <5 6>;
+            bindings = <&kakko2>;
+            key-positions = <14 17>;
         };
 
         KAKKO3 {
-            bindings = <&kp JP_LBKT>;
-            key-positions = <13 14>;
+            bindings = <&kakko3>;
+            key-positions = <26 29>;
         };
 
-        KAKKO4 {
-            bindings = <&kp JP_RBKT>;
-            key-positions = <17 18>;
-        };
-
-        KAKKO5 {
-            bindings = <&kp JP_LT>;
-            key-positions = <25 26>;
-        };
-
-        KAKKO6 {
-            bindings = <&kp JP_RT>;
-            key-positions = <29 30>;
+        KAKKO11 {
+            bindings = <&kakko11>;
+            key-positions = <3 6>;
         };
 
         EXCL_ {
@@ -218,6 +208,8 @@
         AT_ {
             bindings = <&kp JP_AT>;
             key-positions = <30 31>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
         };
 
         ASTRK_ {
