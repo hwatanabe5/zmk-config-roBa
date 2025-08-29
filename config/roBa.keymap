@@ -172,12 +172,12 @@
 
         KAKKO1 {
             bindings = <&kakko1>;
-            key-positions = <4 5>;
+            key-positions = <14 17>;
         };
 
         KAKKO2 {
             bindings = <&kakko2>;
-            key-positions = <14 17>;
+            key-positions = <4 5>;
         };
 
         KAKKO3 {
@@ -187,7 +187,7 @@
 
         KAKKO11 {
             bindings = <&kakko11>;
-            key-positions = <3 6>;
+            key-positions = <13 18>;
         };
 
         EXCL_ {
