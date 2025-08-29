@@ -303,9 +303,16 @@
             require-prior-idle-ms = <200>;
         };
 
-        BACKSPAC {
-            bindings = <&kp BACKSPACE>;
+        COMMA_ {
+            bindings = <&kp COMMA>;
             key-positions = <29 30>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
+        };
+
+        DOT_ {
+            bindings = <&kp DOT>;
+            key-positions = <5 6>;
             timeout-ms = <200>;
             require-prior-idle-ms = <200>;
         };
