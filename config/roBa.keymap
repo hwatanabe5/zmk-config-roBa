@@ -203,8 +203,8 @@
         AT_ {
             bindings = <&kp JP_AT>;
             key-positions = <30 31>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <1000>;
+            require-prior-idle-ms = <1000>;
         };
 
         ASTRK_ {
