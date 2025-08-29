@@ -50,7 +50,7 @@
 #define JP_UNDER LS(JP_BSLH)  // _
 
 &mt {
-    flavor = "balanced";
+    flavor = "balanced";Ｊ
     quick-tap-ms = <0>;
     hold-while-undecided;
 };
@@ -70,8 +70,8 @@
        //  29 //
        //  30 //
        //  37 // 左下左
-       //  38 // 左下中
-           39 // 左下右
+           38 // 左下中
+       //  39 // 左下右
     >;
 };
 
@@ -310,7 +310,7 @@
         kakko11: kakko11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp JP_LPAR &kp JP_RPAR &kp LEFT>;
+            bindings = <&kp JP_EQUAL &kp JP_LPAR &kp JP_RPAR &kp LEFT>;
             label = "KAKKO11";
         };
     };
