@@ -237,8 +237,8 @@
             key-positions = <0 1>;
         };
 
-        BS_ {
-            bindings = <&kp BACKSPACE>;
+        UNDERBAR_ {
+            bindings = <&kp UNDERSCORE>;
             key-positions = <20 21>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
