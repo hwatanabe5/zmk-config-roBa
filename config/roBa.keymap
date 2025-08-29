@@ -192,19 +192,17 @@
 
         EXCL_ {
             bindings = <&kp JP_EXCL>;
-            key-positions = <13 12>;
+            key-positions = <3 2>;
         };
 
         QMARK_ {
             bindings = <&kp JP_QMARK>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
         };
 
         AT_ {
             bindings = <&kp JP_AT>;
             key-positions = <30 31>;
-            timeout-ms = <1000>;
-            require-prior-idle-ms = <1000>;
         };
 
         ASTRK_ {
@@ -219,7 +217,7 @@
 
         SEMI_ {
             bindings = <&kp JP_SEMI>;
-            key-positions = <31 32>;
+            key-positions = <24 25>;
         };
 
         MB1_ {
