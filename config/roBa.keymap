@@ -50,7 +50,7 @@
 #define JP_UNDER LS(JP_BSLH)  // _
 
 &mt {
-    flavor = "balanced";Ｊ
+    flavor = "balanced";
     quick-tap-ms = <0>;
     hold-while-undecided;
 };
