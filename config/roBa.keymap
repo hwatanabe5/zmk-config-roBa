@@ -305,7 +305,7 @@
         kakko3: kakko3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LESS_THAN &kp JP_LT &kp JP_RT>;
+            bindings = <&kp JP_LT &kp JP_RT &kp LEFT_ARROW>;
             label = "KAKKO3";
         };
 
