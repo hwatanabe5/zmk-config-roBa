@@ -322,7 +322,7 @@
         kakko11: kakko11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp JP_EQUAL &kp JP_LPAR &kp JP_RPAR &kp LEFT>;
+            bindings = <&kp JP_EQUAL &kp JP_LPAR &kp JP_RPAR &kp LEFT &kp LEFT>;
             label = "KAKKO11";
         };
     };
