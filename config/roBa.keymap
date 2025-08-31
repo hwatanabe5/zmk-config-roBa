@@ -199,37 +199,32 @@
 
         QMARK_ {
             bindings = <&kp JP_QMARK>;
-            key-positions = <1 2>;
+            key-positions = <7 6>;
         };
 
         AT_ {
             bindings = <&kp JP_AT>;
-            key-positions = <30 31>;
-        };
-
-        ASTRK_ {
-            bindings = <&kp JP_ASTRK>;
-            key-positions = <7 8>;
+            key-positions = <30 32>;
         };
 
         COLON_ {
             bindings = <&kp JP_COLON>;
-            key-positions = <23 24>;
+            key-positions = <24 25>;
         };
 
         SEMI_ {
             bindings = <&kp JP_SEMI>;
-            key-positions = <24 25>;
+            key-positions = <30 31>;
         };
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <18 20>;
+            key-positions = <18 19>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <21 19>;
+            key-positions = <19 20>;
         };
 
         ESC_ {
@@ -253,40 +248,12 @@
 
         MB3_ {
             bindings = <&mkp MB3>;
-            key-positions = <21 18>;
-        };
-
-        UP_ {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <6 7>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
-        };
-
-        LEFT_ {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <17 18>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
-        };
-
-        RIGHT_ {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <19 20>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
-        };
-
-        DOWN_ {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <19 18>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
+            key-positions = <18 20>;
         };
 
         AND_ {
             bindings = <&kp JP_AMPS>;
-            key-positions = <24 25>;
+            key-positions = <29 18>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
@@ -294,13 +261,6 @@
         MUHENKAN_ {
             bindings = <&kp JP_MHEN>;
             key-positions = <13 12>;
-        };
-
-        SPACE_ {
-            bindings = <&kp SPACE>;
-            key-positions = <31 32>;
-            timeout-ms = <200>;
-            require-prior-idle-ms = <200>;
         };
 
         COMMA_ {
@@ -313,6 +273,18 @@
         DOT_ {
             bindings = <&kp DOT>;
             key-positions = <29 30>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
+        };
+
+        henkan_ {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <18 19>;
+        };
+
+        EQ_ {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 26>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
