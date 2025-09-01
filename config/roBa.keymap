@@ -64,7 +64,7 @@
         18 // J
         19 // K
         20 // L
-        21 // 
+       // 21 // 
        // 25 //
        //  28 //
        //  29 //
@@ -372,10 +372,10 @@
 
         KIGOU {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &kp JP_ASTRK  &kp JP_HASH   &kp JP_YEN  &kp JP_CARET  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_SLASH  &kp JP_EQUAL  &kp JP_DLLR   &kp JP_SQT  &kp JP_TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_EQUAL  &kp JP_AT     &kp JP_PRCNT  &kp JP_DQT  &kp JP_PIPE   &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans                                                              &trans
+&trans  &trans  &trans  &trans  &trans                                  &kp JP_ASTRK  &kp JP_CARET  &kp JP_YEN    &kp JP_SQT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_SLASH  &kp JP_EQUAL  &kp JP_HASH   &kp JP_DLLR   &kp JP_DQT    &kp JP_TILDE
+&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_EQUAL  &kp JP_AT     &kp JP_PRCNT  &kp JP_DQT    &kp JP_PIPE   &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
