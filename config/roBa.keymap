@@ -108,8 +108,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         F7_ {
@@ -277,11 +275,6 @@
             require-prior-idle-ms = <100>;
         };
 
-        henkan_ {
-            bindings = <&kp INT_HENKAN>;
-            key-positions = <18 19>;
-        };
-
         EQ_ {
             bindings = <&kp EQUAL>;
             key-positions = <13 26>;
@@ -379,10 +372,10 @@
 
         KIGOU {
             bindings = <
-&trans        &trans          &trans          &trans           &trans                                       &kp JP_ASTRK  &kp JP_HASH   &kp JP_YEN      &kp JP_CARET  &trans
-&trans        &trans          &trans          &trans           &trans         &trans         &&trans        &kp JP_SLASH  &kp JP_EQUAL  &kp JP_DLLR     &kp JP_SQT    &kp JP_TILDE
-&trans        &trans          &trans          &trans           &trans         &trans         &trans         &kp JP_EQUAL  &kp JP_AT     &kp JP_PRCNT    &kp JP_DQT    &kp JP_PIPE
-&trans        &trans          &trans          &trans           &trans         &trans         &trans         trans                                                     &trans
+&trans  &trans  &trans  &trans  &trans                                  &kp JP_ASTRK  &kp JP_HASH   &kp JP_YEN  &kp JP_CARET  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_SLASH  &kp JP_EQUAL  &kp JP_DLLR   &kp JP_SQT  &kp JP_TILDE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_EQUAL  &kp JP_AT     &kp JP_PRCNT  &kp JP_DQT  &kp JP_PIPE   &trans
+&trans  &trans  &trans  &trans  &trans  &trans trans      &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -401,10 +394,10 @@
 
         NUM3 {
             bindings = <
-&trans        &trans          &trans          &trans           &trans                                   &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
-&trans        &trans          &trans          &trans           &trans        &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
-&trans        &trans          &trans          &trans           &trans        &trans      &trans         &kp JP_DOT    &kp N1  &kp N2  &kp N3  &kp JP_UNDER
-&trans        &trans          &trans          &trans           &trans        &trans      &kp BACKSPACE  &kp N0                                &kp JP_EQUAL
+&trans  &trans  &trans  &trans  &trans                             &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &kp JP_DOT    &kp N1  &kp N2  &kp N3  &kp JP_UNDER
+&trans  &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &kp N0                                &kp JP_EQUAL
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
