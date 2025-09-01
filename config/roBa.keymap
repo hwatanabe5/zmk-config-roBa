@@ -233,15 +233,11 @@
         UNDERBAR_ {
             bindings = <&kp JP_UNDER>;
             key-positions = <20 21>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         DEL_ {
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         MB3_ {
@@ -252,8 +248,6 @@
         AND_ {
             bindings = <&kp JP_AMPS>;
             key-positions = <29 18>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         MUHENKAN_ {
@@ -264,29 +258,21 @@
         COMMA_ {
             bindings = <&kp COMMA>;
             key-positions = <26 25>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         DOT_ {
             bindings = <&kp DOT>;
             key-positions = <29 30>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         EQ_ {
             bindings = <&kp EQUAL>;
             key-positions = <13 26>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
 
         WCLICK_ {
             bindings = <&WCLICK_>;
             key-positions = <18 7>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <100>;
         };
     };
 
