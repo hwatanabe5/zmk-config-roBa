@@ -372,9 +372,9 @@
 
         KIGOU {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                  &kp JP_ASTRK  &kp JP_CARET  &kp JP_YEN    &kp JP_SQT    &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_SLASH  &kp JP_EQUAL  &kp JP_HASH   &kp JP_DLLR   &kp JP_DQT    &kp JP_TILDE
-&trans  &trans  &trans  &trans  &trans  &trans            &kp JP_EQUAL  &kp JP_AT     &kp JP_PRCNT  &kp JP_DQT    &kp JP_PIPE   &trans
+&trans  &trans  &trans  &trans  &trans                                  &kp JP_ASTRK  &trans        &kp JP_YEN    &kp JP_SQT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans        &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR   &kp JP_DQT    &kp JP_TILDE
+&trans  &trans  &trans  &trans  &trans  &trans            &trans        &kp JP_CARET  &kp JP_PRCNT  &trans        &kp JP_PIPE   &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                &trans
             >;
 
