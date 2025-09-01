@@ -256,17 +256,17 @@
         };
 
         COMMA_ {
-            bindings = <&kp COMMA>;
+            bindings = <&kp JP_COMMA>;
             key-positions = <26 25>;
         };
 
         DOT_ {
-            bindings = <&kp DOT>;
+            bindings = <&kp JP_DOT>;
             key-positions = <29 30>;
         };
 
         EQ_ {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_EQUAL>;
             key-positions = <13 26>;
         };
 
