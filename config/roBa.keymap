@@ -281,6 +281,13 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
+
+        WCLICK_ {
+            bindings = <&WCLICK_>;
+            key-positions = <18 7>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
+        };
     };
 
     macros {
