@@ -343,7 +343,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE1";
             #binding-cells = <0>;
-            bindings = <&lt 8 INT_HENKAN>, <&mt LEFT_SHIFT INT_MUHENKAN>;
+            bindings = <&lt 8 JP_HENK>, <&mt LEFT_SHIFT JP_MHEN>;
         };
 
         mkt: mkt {
