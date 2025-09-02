@@ -250,8 +250,8 @@
             key-positions = <29 18>;
         };
 
-        MUHENKAN_ {
-            bindings = <&kp JP_MHEN>;
+        MUHENKAN_NUM_ {
+            bindings = <&MHEM_NUM>;
             key-positions = <13 12>;
         };
 
@@ -273,6 +273,11 @@
         WCLICK_ {
             bindings = <&WCLICK_>;
             key-positions = <18 7>;
+        };
+
+        MHEN_KIGOU {
+            bindings = <&MHEN_KIGOU_>;
+            key-positions = <12 11>;
         };
     };
 
