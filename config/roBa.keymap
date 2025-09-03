@@ -222,7 +222,7 @@
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <19 20>;
+            key-positions = <20 7>;
         };
 
         ESC_ {
@@ -278,6 +278,11 @@
         MHEN_KIGOU {
             bindings = <&MHEN_KIGOU_>;
             key-positions = <12 11>;
+        };
+
+        HAIHUN_ {
+            bindings = <&kp MINUS>;
+            key-positions = <20 19>;
         };
     };
 
@@ -394,15 +399,10 @@
 
         default_layer {
             bindings = <
- &kp Q   &kp W           &kp E        &kp R             &kp T                                                    &kp Y           &kp U             &kp I            &kp O                 &kp P
- &kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans         &kp H           &kp J             &kp K            &kp L                 &lt 5 ENTER
- &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans         &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL DELETE  &mt LEFT_WIN SPACE   &kp DELETE
- &trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &kp BACKSPACE  &lt 7 BACKSPACE                                                          &trans
-
-// &kp Q   &kp W           &kp E        &kp R             &kp T                                                    &kp Y           &kp U             &kp I            &kp O                 &kp P
-// &kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans         &kp H           &kp J             &kp K            &kp L                 &lt 5 MINUS
-// &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans         &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL SPACE  &mt LEFT_WIN JP_HENK  &kp DELETE
-// &trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &kp BACKSPACE  &lt 7 ENTER                                                              &trans
+&kp Q   &kp W           &kp E        &kp R             &kp T                                                    &kp Y            &kp U             &kp I             &kp O               &kp P
+&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans         &kp H            &kp J             &kp K             &kp L               &lt 5 ENTER
+&kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans         &mt LEFT_ALT N   &mt LEFT_SHIFT M  &mt LCTRL DELETE  &mt LEFT_WIN SPACE  &kp DELETE
+&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &kp BACKSPACE  &lt 7 BACKSPACE                                                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
