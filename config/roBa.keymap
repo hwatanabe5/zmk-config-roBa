@@ -397,7 +397,7 @@
 &kp Q   &kp W           &kp E        &kp R             &kp T                                                                 &kp Y           &kp U             &kp I            &kp O             &kp P
 &kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                      &trans                    &kp H           &kp J             &kp K            &lt 5  L          &lt 5 JP_MINUS
 &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                      &trans                    &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL SPACE  &mt LEFT_WIN TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &lt 3 JP_MHEN               &mt LEFT_SHIFT BACKSPACE  &lt 7 ENTER                                                          &trans
+&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &lt 3 SPACE                 &mt LEFT_SHIFT BACKSPACE  &lt 7 ENTER                                                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
