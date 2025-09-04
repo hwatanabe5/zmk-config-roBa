@@ -250,8 +250,8 @@
             key-positions = <30 19>;
         };
 
-        MUHENKAN_NUM_ {
-            bindings = <&kp INT_MUHENKAN>;
+        MUHENKAN {
+            bindings = <&kp JP_MHEN>;
             key-positions = <13 12>;
         };
 
@@ -397,7 +397,7 @@
 &kp Q   &kp W           &kp E        &kp R             &kp T                                                                 &kp Y           &kp U             &kp I            &kp O             &kp P
 &kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                      &trans                    &kp H           &kp J             &kp K            &lt 5  L          &lt 5 JP_MINUS
 &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                      &trans                    &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL SPACE  &mt LEFT_WIN TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &lt 3 SPACE                 &mt LEFT_SHIFT BACKSPACE  &lt 7 ENTER                                                          &trans
+&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE        &lt 2 BACKSPACE           &lt 7 ENTER                                                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -414,18 +414,18 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        FANCTION {
+        NUM1 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                            &kp LC(Z)      &kp F1  &kp F2  &kp F3  &kp F12
-&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans          &kp HOME  &kp PAGE_UP    &kp F4  &kp F5  &kp F6  &kp F11
-&kp F7  &kp F8  &kp F9  &kp F10  &trans          &kp ESCAPE      &kp END   &kp PAGE_DOWN  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans   &kp TAB         &kp SPACE       &trans    &trans                                 &trans
+&trans  &trans  &trans  &trans  &trans                                      &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
+&trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
+&trans  &trans  &trans  &trans  &kp LS(JP_EISU)  &trans      &trans         &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_DOT
+&trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_EQUAL                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        NUM3 {
+        NUM2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                      &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
 &trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
