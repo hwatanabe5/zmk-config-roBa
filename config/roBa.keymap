@@ -397,7 +397,7 @@
 &kp Q   &kp W           &kp E        &kp R             &kp T                                                                 &kp Y           &kp U             &kp I              &kp O             &kp P
 &kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                      &trans                    &kp H           &kp J             &lt 5 K            &kp L             &lt 5 JP_MINUS
 &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                      &trans                    &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL JP_MHEN  &mt LEFT_WIN TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE        &lt 2 BACKSPACE           &lt 7 ENTER                                                          &trans
+&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE        &lt 7 BACKSPACE           &lt 2 ENTER                                                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -418,8 +418,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                      &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
 &trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
-&trans  &trans  &trans  &trans  &kp LS(JP_EISU)  &trans      &trans         &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_DOT
-&trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_EQUAL                          &trans
+&trans  &trans  &trans  &trans  &kp LS(JP_EISU)  &trans      &trans         &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_EQUAL
+&trans  &trans  &trans  &trans  &trans           &trans      &trans         &trans                                &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -439,9 +439,9 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                    &trans  &trans               &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                &trans  &mkp MB1             &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                &trans  &mkp MB1             &trans    &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans                &trans  &kp LG(RIGHT_ARROW)  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mt LEFT_SHIFT SPACE  &trans                                           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans                &trans                                           &trans
             >;
         };
 
@@ -452,6 +452,7 @@
 &trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &trans            &trans          &trans            &trans
 &trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                                      &trans
             >;
+
         };
 
         SC {
