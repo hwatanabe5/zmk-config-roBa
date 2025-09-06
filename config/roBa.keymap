@@ -279,11 +279,6 @@
             bindings = <&kp MINUS>;
             key-positions = <20 19>;
         };
-
-        N1_ {
-            bindings = <&kp N1>;
-            key-positions = <41 30>;
-        };
     };
 
     macros {
