@@ -416,10 +416,10 @@
 
         NUM1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                      &kp N0        &kp N7  &kp N8  &kp N9  &kp N0
-&trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
-&trans  &trans  &trans  &trans  &kp LS(JP_EISU)  &trans      &trans         &kp JP_ASTRK  &kp N1  &kp N2  &kp N3  &kp JP_PLUS
-&trans  &trans  &trans  &trans  &trans           &trans      &trans         &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                                      &kp JP_ASTRK        &kp N7  &kp N8  &kp N9  &kp N0
+&trans  &trans  &trans  &trans  &trans           &trans      &trans         &kp JP_SLASH        &kp N4  &kp N5  &kp N6  &kp JP_MINUS
+&trans  &trans  &trans  &trans  &kp LS(JP_EISU)  &trans      &trans         &kp N0              &kp N1  &kp N2  &kp N3  &kp JP_PLUS
+&trans  &trans  &trans  &trans  &trans           &trans      &trans         &trans                                      &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
