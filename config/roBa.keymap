@@ -207,12 +207,12 @@
 
         COLON_ {
             bindings = <&kp JP_COLON>;
-            key-positions = <24 25>;
+            key-positions = <25 26>;
         };
 
         SEMI_ {
             bindings = <&kp JP_SEMI>;
-            key-positions = <30 31>;
+            key-positions = <30 29>;
         };
 
         MB1_ {
@@ -257,12 +257,12 @@
 
         COMMA_ {
             bindings = <&kp JP_COMMA>;
-            key-positions = <26 25>;
+            key-positions = <25 24>;
         };
 
         DOT_ {
             bindings = <&kp JP_DOT>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
         };
 
         EQ_ {
