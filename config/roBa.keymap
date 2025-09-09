@@ -405,10 +405,10 @@
 
         KIGOU {
             bindings = <
-&trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT                             &kp JP_ASTRK  &trans        &kp JP_YEN   &kp JP_SQT  &kp JP_PIPE
-&trans  &trans  &trans  &kp JP_LPAR  &kp JP_RPAR  &trans      &trans         &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR  &kp JP_DQT  &kp JP_TILDE
-&trans  &trans  &trans  &kp JP_LT    &kp JP_RT    &trans      &trans         &kp JP_CARET  &kp JP_PRCNT  &trans       &trans      &kp DELETE
-&trans  &trans  &trans  &trans       &trans       &trans      &kp BACKSPACE  &trans                                               &trans
+&trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT                                  &kp JP_ASTRK  &trans        &kp JP_YEN   &kp JP_SQT  &kp JP_PIPE
+&trans  &trans  &trans  &kp JP_LPAR  &kp JP_RPAR       &trans      &trans         &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR  &kp JP_DQT  &kp JP_TILDE
+&trans  &trans  &trans  &kp JP_LT    &kp JP_RT         &trans      &trans         &kp JP_CARET  &kp JP_PRCNT  &trans       &trans      &kp DELETE
+&trans  &trans  &trans  &trans       &kp JP_MHEN       &trans      &kp BACKSPACE  &trans                                               &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
