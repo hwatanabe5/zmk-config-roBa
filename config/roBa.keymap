@@ -247,7 +247,7 @@
 
         AND_ {
             bindings = <&kp JP_AMPS>;
-            key-positions = <30 19>;
+            key-positions = <25 12>;
         };
 
         MUHENKAN {
@@ -267,7 +267,7 @@
 
         EQ_ {
             bindings = <&kp JP_EQUAL>;
-            key-positions = <12 25>;
+            key-positions = <30 19>;
         };
 
         WCLICK_ {
@@ -405,10 +405,10 @@
 
         KIGOU {
             bindings = <
-&trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT                                  &kp JP_ASTRK  &trans        &kp JP_YEN   &kp JP_SQT  &kp JP_PIPE
-&trans  &trans  &trans  &kp JP_LPAR  &kp JP_RPAR       &trans      &trans         &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR  &kp JP_DQT  &kp JP_TILDE
-&trans  &trans  &trans  &kp JP_LT    &kp JP_RT         &trans      &trans         &kp JP_CARET  &kp JP_PRCNT  &trans       &trans      &kp DELETE
-&trans  &trans  &trans  &trans       &kp JP_MHEN       &trans      &kp BACKSPACE  &trans                                               &trans
+&trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT                             &kp JP_ASTRK  &trans        &kp JP_YEN   &kp JP_SQT  &kp JP_PIPE
+&trans  &trans  &trans  &kp JP_LPAR  &kp JP_RPAR  &trans      &trans         &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR  &kp JP_DQT  &kp JP_TILDE
+&trans  &trans  &trans  &kp JP_LT    &kp JP_RT    &trans      &trans         &kp JP_CARET  &kp JP_PRCNT  &trans       &trans      &kp DELETE
+&trans  &trans  &trans  &trans       &kp JP_MHEN  &trans      &kp BACKSPACE  &trans                                               &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -465,10 +465,10 @@
 
         FUNCTION2 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans                    &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
-&kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans                    &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
-&trans  &trans  &trans  &trans   &trans          &kp SPACE                 &trans    &trans                                                                         &trans
+&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                           &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
+&kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans         &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
+&trans  &trans  &trans  &trans   &trans          &kp SPACE      &trans    &trans                                                                         &trans
             >;
         };
 
