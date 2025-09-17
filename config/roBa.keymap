@@ -276,7 +276,7 @@
         };
 
         MUHENKAN2_ {
-            bindings = <&kp MINUS>;
+            bindings = <&kp JP_MHEN>;
             key-positions = <31 32>;
         };
     };
