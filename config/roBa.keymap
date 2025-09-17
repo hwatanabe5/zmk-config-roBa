@@ -275,9 +275,9 @@
             key-positions = <18 19>;
         };
 
-        HAIHUN_ {
+        MUHENKAN2_ {
             bindings = <&kp MINUS>;
-            key-positions = <20 19>;
+            key-positions = <31 32>;
         };
     };
 
