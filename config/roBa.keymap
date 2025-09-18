@@ -231,7 +231,7 @@
 
         ESC_ {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <14 13>;
         };
 
         UNDERBAR_ {
