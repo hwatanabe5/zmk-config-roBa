@@ -217,12 +217,12 @@
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <18 7>;
+            key-positions = <18 19>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <20 7>;
+            key-positions = <20 19>;
         };
 
         ESC_ {
@@ -272,7 +272,7 @@
 
         WCLICK_ {
             bindings = <&WCLICK_>;
-            key-positions = <18 19>;
+            key-positions = <18 19 20>;
         };
 
         MUHENKAN2_ {
