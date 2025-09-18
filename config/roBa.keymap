@@ -113,21 +113,25 @@
         F7_ {
             bindings = <&kp F7>;
             key-positions = <38 22>;
+            timeout-ms = <30>;
         };
 
         F8_ {
             bindings = <&kp F8>;
             key-positions = <38 23>;
+            timeout-ms = <30>;
         };
 
         F9_ {
             bindings = <&kp F9>;
             key-positions = <38 24>;
+            timeout-ms = <30>;
         };
 
         F10_ {
             bindings = <&kp F10>;
             key-positions = <38 25>;
+            timeout-ms = <30>;
         };
 
         F6_ {
