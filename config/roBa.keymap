@@ -399,8 +399,8 @@
         default_layer {
             bindings = <
 &kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I              &kp O             &kp P
-&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &lt 5 K            &kp L             &lt 5 JP_MINUS
-&kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL JP_HENK  &mt LEFT_WIN TAB  &kp DELETE
+&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &kp K              &kp L             &kp JP_MINUS
+&kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &lt 5 JP_HENK      &mt LEFT_WIN TAB  &kp DELETE
 &trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 2 BACKSPACE  &lt 7 ENTER                                                            &trans
             >;
 
@@ -479,7 +479,7 @@
         SC2 {
             bindings = <
 &kp PRINTSCREEN  &kp LC(W)  &kp INSERT     &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)  &kp LS(LC(V))  &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
+&kp LC(A)        &kp LC(S)  &kp LS(D)      &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
 &kp LC(Z)        &kp LC(X)  &kp LC(C)      &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
 &trans           &trans     &kp LA(TAB)    &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp LEFT_SHIFT                                                                 &trans
             >;
