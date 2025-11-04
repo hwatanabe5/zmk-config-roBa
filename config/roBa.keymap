@@ -279,8 +279,8 @@
             key-positions = <19 18>;
         };
 
-        MUHENKAN2_ {
-            bindings = <&kp JP_MHEN>;
+        MB3 {
+            bindings = <&mkp MB3>;
             key-positions = <31 32>;
         };
     };
