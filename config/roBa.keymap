@@ -107,7 +107,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <41 30>;
         };
 
         F7_ {
@@ -451,10 +451,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans          &kp UP_ARROW    &trans           &trans                      &trans  &trans            &trans     &trans            &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &kp LEFT_CONTROL  &trans     &kp LEFT_CONTROL  &trans
+&trans  &trans          &kp UP_ARROW    &trans           &trans                      &trans  &trans            &trans            &trans            &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &kp LEFT_CONTROL  &trans            &kp LEFT_CONTROL  &trans
 &trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &trans            &kp LEFT_CONTROL  &trans            &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                                 &trans
+&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                                        &trans
             >;
         };
 
