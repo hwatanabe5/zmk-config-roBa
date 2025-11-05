@@ -220,7 +220,7 @@
         };
 
         MB2_ {
-            bindings = <&mkp MB2>;
+            bindings = <&mkt 5 MB2>;
             key-positions = <19 20>;
         };
 
