@@ -57,30 +57,25 @@
 &lt { hold-while-undecided; };
 
 //AML誤爆防止・復帰除外キー設定
-
 //&zip_temp_layer {
 //    require-prior-idle-ms = <100>;
 //    excluded-positions = <
-       // 18 // J
-       // 19  K
-       // 20 // L
-       // 21 // 
-       // 25 // V
-       //  28 //
-       //  29 //
-       //  30 //
-       //  37 // 左下左
-       //  38 // 左下中
-       //  39 // 左下右
+// 18 // J
+// 19  K
+// 20 // L
+// 21 // 
+// 25 // V
+//  28 //
+//  29 //
+//  30 //
+//  37 // 左下左
+//  38 // 左下中
+//  39 // 左下右
 //    >;
 //};
-
 //トラックボール操作時AML動作定義
-
 //&trackball_listener { input-processors = <&zip_temp_layer 4 30080>; };
-
 //マウスクリック操作時AML動作定義
-
 //&mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
 
 &trackball {
@@ -221,12 +216,12 @@
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <18 7>;
+            key-positions = <18 19>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <20 7>;
+            key-positions = <19 20>;
         };
 
         ESC_ {
@@ -276,7 +271,7 @@
 
         WCLICK_ {
             bindings = <&WCLICK_>;
-            key-positions = <19 18>;
+            key-positions = <19 18 20>;
         };
 
         MB3combo_ {
