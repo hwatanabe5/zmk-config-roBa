@@ -57,31 +57,36 @@
 &lt { hold-while-undecided; };
 
 //AML誤爆防止・復帰除外キー設定
-//&zip_temp_layer {
-//    require-prior-idle-ms = <100>;
-//    excluded-positions = <
-// 18 // J
-// 19  K
-// 20 // L
-// 21 // 
-// 25 // V
-//  28 //
-//  29 //
-//  30 //
-//  37 // 左下左
-//  38 // 左下中
-//  39 // 左下右
-//    >;
-//};
+
+&zip_temp_layer {
+    require-prior-idle-ms = <100>;
+    excluded-positions = <
+        18 // J
+       // 19  K
+        20 // L
+       // 21 // 
+       // 25 // V
+       //  28 //
+       //  29 //
+       //  30 //
+       //  37 // 左下左
+       //  38 // 左下中
+         39 // 左下右
+    >;
+};
+
 //トラックボール操作時AML動作定義
-//&trackball_listener { input-processors = <&zip_temp_layer 4 30080>; };
+
+&trackball_listener { input-processors = <&zip_temp_layer 4 30080>; };
+
 //マウスクリック操作時AML動作定義
-//&mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
+
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
 
 &trackball {
     //  automouse-layer = <4>;
 
-    scroll-layers = <9>;
+    scroll-layers = <5>;
 
     // arrows {
     //     layers = <3>;
@@ -216,12 +221,12 @@
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <18 19>;
+            key-positions = <18 7>;
         };
 
         MB2_ {
-            bindings = <&mkt 9 MB2>;
-            key-positions = <20 19>;
+            bindings = <&mkp MB2>;
+            key-positions = <20 7>;
         };
 
         ESC_ {
@@ -271,7 +276,7 @@
 
         WCLICK_ {
             bindings = <&WCLICK_>;
-            key-positions = <19 18 20>;
+            key-positions = <19 18>;
         };
 
         MUHENKAN2_ {
@@ -375,17 +380,16 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE1";
             #binding-cells = <0>;
-            bindings = <&lt 9 JP_HENK>, <&mt LEFT_SHIFT JP_MHEN>;
+            bindings = <&lt 8 JP_HENK>, <&mt LEFT_SHIFT JP_MHEN>;
         };
 
         mkt: mkt {
             compatible = "zmk,behavior-hold-tap";
             label = "MKT";
-            bindings = <&mo>, <&mkp>;
+            bindings = <&mkp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            hold-while-undecided;
         };
     };
 
@@ -394,10 +398,10 @@
 
         default_layer {
             bindings = <
-&kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I              &kp O             &kp P
-&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &kp K              &lt 9 L             &kp JP_MINUS
+&kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I                &kp O             &kp P
+&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &lt 5 K              &kp L             &kp JP_MINUS
 &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &mt LCTRL JP_HENK  &mt LEFT_WIN TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 2 BACKSPACE  &lt 7 ENTER                                                            &trans
+&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 2 BACKSPACE  &lt 7 ENTER                                                              &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -445,21 +449,12 @@
             >;
         };
 
-        layer_9 {
+        SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
-            >;
-        };
-
-        FUNCTION2 {
-            bindings = <
-&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                           &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
-&kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans         &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
-&trans  &trans  &trans  &trans   &trans          &kp SPACE      &trans    &trans                                                                         &trans
+&trans  &trans          &kp UP_ARROW    &trans           &trans                      &trans  &trans            &trans  &trans            &trans
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &kp LEFT_CONTROL  &trans  &kp LEFT_CONTROL  &trans
+&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &trans            &trans  &trans            &trans
+&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                              &trans
             >;
         };
 
@@ -472,21 +467,21 @@
             >;
         };
 
-        SC2 {
+        FUNCTION2 {
             bindings = <
-&kp PRINTSCREEN  &kp LC(W)  &kp INSERT   &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)  &kp LS(D)    &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkt 9 MB2           &lt 9 LC(PAGE_UP)
-&kp LC(Z)        &kp LC(X)  &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
-&trans           &trans     &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
+&kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                           &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
+&kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans         &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
+&trans  &trans  &trans  &trans   &trans          &kp SPACE      &trans    &trans                                                                         &trans
             >;
         };
 
-        SCROLL {
+        SC2 {
             bindings = <
-&trans  &trans          &kp UP_ARROW    &trans           &trans                      &trans  &trans            &trans            &trans  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_CONTROL  &none   &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans  &trans            &trans            &trans  &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                                              &trans
+&kp PRINTSCREEN  &kp LC(W)  &kp INSERT   &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp LC(A)        &kp LC(S)  &kp LS(D)    &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
+&kp LC(Z)        &kp LC(X)  &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
+&trans           &trans     &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
             >;
         };
     };
