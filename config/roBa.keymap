@@ -350,14 +350,14 @@
         MHEN_KIGOU_: MHEN_KIGOU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(INT_MUHENKAN) &mo 1>;
+            bindings = <&kp LG(INT_MUHENKAN) &mo 2>;
             label = "MHEN_KIGOU";
         };
 
         HENKAN_KIGOU_: HENKAN_KIGOU_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(INT_HENKAN) &mo 1>;
+            bindings = <&kp LG(INT_HENKAN) &mo 2>;
             label = "HENKAN_KIGOU_";
         };
     };
@@ -385,7 +385,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE1";
             #binding-cells = <0>;
-            bindings = <&lt 8 JP_HENK>, <&mt LEFT_SHIFT JP_MHEN>;
+            bindings = <&lt 1 JP_HENK>, <&mt LEFT_SHIFT JP_MHEN>;
         };
 
         mkt: mkt {
@@ -403,13 +403,22 @@
 
         default_layer {
             bindings = <
-&kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I              &kp O             &kp P
-&kp A   &lt 2 S         &lt 1 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &lt 5 K            &kp L             &kp JP_MINUS
-&kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &kp LEFT_WIN       &mt LCTRL TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 8 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 2 BACKSPACE  &lt 7 ENTER                                                            &trans
+&kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I         &kp O          &kp P
+&kp A   &lt 0 S         &lt 2 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &lt 5 K       &kp L          &kp JP_MINUS
+&kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &kp LEFT_WIN  &mt LCTRL TAB  &kp DELETE
+&trans  &trans          &trans       &trans            &lt 1 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 0 BACKSPACE  &lt 7 ENTER                                                    &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
+        };
+
+        SC2 {
+            bindings = <
+&kp PRINTSCREEN  &kp INSERT  &kp LC(E)    &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp LC(A)        &kp LC(S)   &kp LC(D)    &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
+&kp LC(Z)        &kp LC(X)   &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
+&trans           &trans      &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
+            >;
         };
 
         KIGOU {
@@ -418,17 +427,6 @@
 &trans  &trans  &trans  &kp JP_LPAR  &kp JP_RPAR  &trans      &trans         &kp JP_SLASH  &kp JP_HASH   &kp JP_DLLR  &kp JP_DQT  &kp JP_TILDE
 &trans  &trans  &trans  &kp JP_LT    &kp JP_RT    &trans      &trans         &kp JP_CARET  &kp JP_PRCNT  &trans       &trans      &kp DELETE
 &trans  &trans  &trans  &trans       &kp JP_MHEN  &trans      &kp BACKSPACE  &trans                                               &trans
-            >;
-
-            sensor-bindings = <&encoder_msc_down_up>;
-        };
-
-        NUM1 {
-            bindings = <
-&trans  &trans  &trans       &trans  &trans                                              &kp JP_ASTRK  &kp N7  &kp N8  &kp N9  &kp JP_PLUS
-&trans  &trans  &kp JP_MHEN  &trans  &trans           &trans              &trans         &kp JP_SLASH  &kp N4  &kp N5  &kp N6  &kp JP_MINUS
-&trans  &trans  &trans       &trans  &kp LS(JP_EISU)  &trans              &trans         &kp N0        &kp N1  &kp N2  &kp N3  &kp N0
-&trans  &trans  &trans       &trans  &kp JP_MHEN      &kp LEFT_SHIFT      &kp BACKSPACE  &kp ENTER                             &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -478,15 +476,6 @@
 &kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
 &kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans         &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
 &trans  &trans  &trans  &trans   &trans          &kp SPACE      &trans    &trans                                                                         &trans
-            >;
-        };
-
-        SC2 {
-            bindings = <
-&kp PRINTSCREEN  &kp INSERT  &kp LC(E)   &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)  &kp LC(D)    &kp LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
-&kp LC(Z)        &kp LC(X)  &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
-&trans           &trans     &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
             >;
         };
     };
