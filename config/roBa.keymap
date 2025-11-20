@@ -278,6 +278,11 @@
             bindings = <&kp INSERT>;
             key-positions = <3 4>;
         };
+
+        win {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
