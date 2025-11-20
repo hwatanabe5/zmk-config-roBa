@@ -406,7 +406,7 @@
 &kp Q   &kp W           &kp E        &kp R             &kp T                                                      &kp Y           &kp U             &kp I         &kp O          &kp P
 &kp A   &lt 0 S         &lt 2 D      &lt 3 F           &kp G           &trans                    &trans           &kp H           &kp J             &lt 5 K       &kp L          &kp JP_MINUS
 &kp Z   &mt LEFT_WIN X  &mt LCTRL C  &mt LEFT_SHIFT V  &mt LEFT_ALT B  &trans                    &trans           &mt LEFT_ALT N  &mt LEFT_SHIFT M  &kp LEFT_WIN  &mt LCTRL TAB  &kp DELETE
-&trans  &trans          &trans       &trans            &lt 1 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 0 BACKSPACE  &lt 7 ENTER                                                    &trans
+&trans  &trans          &trans       &trans            &lt 1 JP_HENK   &mt LEFT_SHIFT SPACE      &lt 3 BACKSPACE  &lt 7 ENTER                                                    &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -415,7 +415,7 @@
         SC2 {
             bindings = <
 &kp PRINTSCREEN  &kp INSERT  &kp LC(E)    &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)   &lt 2 LC(D)    &lt 3 LC(F)        &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
+&kp LC(A)        &kp LC(S)   &lt 2 LC(D)  &lt 3 LC(F)      &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &lt 5 LC(PAGE_UP)
 &kp LC(Z)        &kp LC(X)   &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
 &trans           &trans      &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
             >;
