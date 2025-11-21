@@ -474,7 +474,7 @@
         FUNCTION2 {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F12  &kp LS(INSERT)                           &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &mkp MB1            &kp UP_ARROW      &mkp MB2             &mkp MB4
+&kp F4  &kp F5  &kp F6  &kp F11  &kp LC(INSERT)  &trans         &kp HOME  &kp PAGE_UP         &kp LC(JP_PLUS)     &kp UP_ARROW      &kp LC(JP_MINUS)     &mkp MB4
 &kp F7  &kp F8  &kp F9  &kp F10  &kp INSERT      &trans         &kp END   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &mkp MB5
 &trans  &trans  &trans  &trans   &trans          &kp SPACE      &trans    &trans                                                                         &trans
             >;
