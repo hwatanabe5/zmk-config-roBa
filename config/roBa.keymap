@@ -413,7 +413,7 @@
 &kp PRINTSCREEN  &kp INSERT   &kp LC(E)        &kp LC(INSERT)  &kp LS(INSERT)                                     &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)           &kp LG(RIGHT_ARROW)   &mkp MB3
 &kp LC(A)        &kp LC(S)    &lt 2 LC(D)      &lt 3 LC(F)     &kp LCTRL        &trans             &trans         &kp PAGE_UP         &kp LC(JP_PLUS)     &kp UP_ARROW               &kp LC(JP_MINUS)      &lt 5 LC(PAGE_UP)    
 &kp LC(Z)        &kp LC(X)    &kp LC(C)        &kp LC(V)       &kp LSHIFT       &trans             &trans         &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW             &kp RIGHT_ARROW       &kp LC(PAGE_DOWN) 
-&trans           &trans       &trans           &trans          &trans           &trans          　 &kp BACKSPACE  &kp ENTER     　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　        &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSPACE  &kp ENTER  &trans
             >;
         };
 
