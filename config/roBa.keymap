@@ -216,12 +216,12 @@
 
         MB1_ {
             bindings = <&mkp MB1>;
-            key-positions = <18 7>;
+            key-positions = <18 19>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <20 7>;
+            key-positions = <20 19>;
         };
 
         ESC_ {
@@ -241,7 +241,7 @@
 
         MB3_ {
             bindings = <&mkp MB3>;
-            key-positions = <31 32>;
+            key-positions = <32 31 30>;
         };
 
         AND_ {
@@ -410,10 +410,10 @@
 
         SC2 {
             bindings = <
-&kp PRINTSCREEN  &kp INSERT  &kp LC(E)    &kp LC(INSERT)   &kp LS(INSERT)                                      &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &mkp MB3
-&kp LC(A)        &kp LC(S)   &lt 2 LC(D)  &lt 3 LC(F)      &kp LCTRL       &trans               &kp DELETE     &kp PAGE_UP         &kp LC(JP_PLUS)     &kp UP_ARROW      LC(JP_MINUS)         &lt 5 LC(PAGE_UP)
-&kp LC(Z)        &kp LC(X)   &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT           &kp LEFT_WIN   &kp PAGE_DOWN       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LC(PAGE_DOWN)
-&trans           &trans      &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)      &kp BACKSPACE  &kp ENTER                                                                      &trans
+&kp PRINTSCREEN  &kp INSERT   &kp LC(E)        &kp LC(INSERT)  &kp LS(INSERT)                                     &kp LG(DOWN_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)           &kp LG(RIGHT_ARROW)  &mkp MB3
+&kp LC(A)        &kp LC(S)    &lt 2 LC(D)      &lt 3 LC(F)     &kp LCTRL        &trans             &kp DELETE     &kp PAGE_UP         &kp LC(JP_PLUS)     &kp UP_ARROW LC(JP_MINUS)  &lt 5 LC(PAGE_UP)    &kp LC(Z)
+&kp LC(X)        &kp LC(C)    &kp LC(V)        &kp LSHIFT      &kp LSHIFT       &kp LEFT_WIN       &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW            &kp LC(PAGE_DOWN)    &trans
+&trans           &kp LA(TAB)  &kp LS(JP_EISU)  &trans          &kp LS(JP_EISU)  &kp BACKSPACE      &kp ENTER      &trans
             >;
         };
 
