@@ -283,11 +283,6 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <32 33>;
         };
-
-        MB3-2 {
-            bindings = <&mkp MB3>;
-            key-positions = <18 20>;
-        };
     };
 
     macros {
