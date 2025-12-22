@@ -194,16 +194,6 @@
             key-positions = <30 29>;
         };
 
-        MB1_ {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19>;
-        };
-
-        MB2_ {
-            bindings = <&mkp MB2>;
-            key-positions = <20 19>;
-        };
-
         ESC_ {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
