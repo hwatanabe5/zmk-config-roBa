@@ -1,7 +1,4 @@
 #include <input/processors.dtsi>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 // スクロール量定義
 
@@ -251,6 +248,11 @@
 
         win {
             bindings = <&kp LEFT_GUI>;
+            key-positions = <31 41>;
+        };
+
+        MB2_ {
+            bindings = <&mkp MB2>;
             key-positions = <32 33>;
         };
     };
@@ -446,6 +448,7 @@
         };
     };
 };
+
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
