@@ -244,11 +244,6 @@
             key-positions = <31 32>;
         };
 
-        INS_ {
-            bindings = <&kp INSERT>;
-            key-positions = <3 4>;
-        };
-
         win {
             bindings = <&kp LEFT_GUI>;
             key-positions = <31 41>;
@@ -257,6 +252,11 @@
         MB2_ {
             bindings = <&mkp MB2>;
             key-positions = <32 33>;
+        };
+
+        INS_ {
+            bindings = <&kp INSERT>;
+            key-positions = <3 4>;
         };
     };
 
