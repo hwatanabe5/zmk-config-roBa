@@ -251,12 +251,12 @@
 
         win {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <31 41>;
+            key-positions = <31 41 42>;
         };
 
         MB2_ {
             bindings = <&mkp MB2>;
-            key-positions = <32 33>;
+            key-positions = <32 33 41>;
         };
     };
 
