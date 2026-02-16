@@ -258,6 +258,11 @@
             bindings = <&kp INSERT>;
             key-positions = <3 4>;
         };
+
+        CAPSLOCK_ {
+            bindings = <&kp LS(JP_EISU)>;
+            key-positions = <24 13>;
+        };
     };
 
     macros {
